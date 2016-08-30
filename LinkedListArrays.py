@@ -21,7 +21,7 @@
 # We can ipotize that these elements are cars. A car has these parameters: gasoline level (0,100) and speed (0,120)
 # This tool can organize these 5 objects in a double linked list sorted by ascending gasoline level and a double linked list sorted by ascending speed at the same time.
 #
-#
+# author:  Andrea Gennusa - Ablablab 
 
 def getHeadAndTail(ll, tag):
     return getHead(ll,tag), getTail(ll,tag)

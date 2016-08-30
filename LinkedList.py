@@ -11,7 +11,7 @@
 #   - llnext (next node linker)
 #   Node class must have methods (for debug):
 #   __int__(self)
-#
+# author:  Andrea Gennusa - Ablablab 
 
 def isEmpty(ll):
     return True if ll.lltail == None and ll.llhead == None else False
