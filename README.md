@@ -24,8 +24,8 @@ With the same instances, you could organize different Double Linked List, one fo
 ### Interface required:
 
 #### Linked List class must have these arrays:
-* llheads = [None, None, None....] (head node linkers, one for each list)
-* lltails = [None, None, None....] (tail node linkers, one for each list)
+* llheads = [None, None, None, ....]; (head node linkers, one for each list)
+* lltails = [None, None, None, ....]; (tail node linkers, one for each list)
 
 #### Node class must have these arrays:
 * nexts = [None, None, None, ...] =  (next node linkers, one for each list)
@@ -47,7 +47,7 @@ This tool can organize these 5 objects in a double linked list sorted by ascendi
 
 
 
-## Double Linked Lists with Dictionary -- Deprecated (Arrays are better)
+## Double Linked Lists with Dictionary -- Deprecated (LinkedListArrays is better)
 
 Tagged Linked List, useful to maintain original values and link them at the same moment through different Double Linked Lists-
 With the same instances, you could organize different Double Linked List, one for each chosen tag.
@@ -55,7 +55,7 @@ With the same instances, you could organize different Double Linked List, one fo
 
 #### Linked List class must have these dictonary entries:
 * lists["tag" + "head"] = (head node linker)
-* lists["tag" + "tail"] (tail node linker)
+* lists["tag" + "tail"] = (tail node linker)
 
 #### Node class must have these dictonary entries:
 * pointer["tag" + "prev"] =  (previous node linker)
