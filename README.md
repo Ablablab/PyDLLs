@@ -11,6 +11,7 @@ Python Double Linked Lists utility, supporting Multiple Double Linked Lists
 #### Node class must have attributes:
 * llprev (previous node linker)
 * llnext (next node linker)
+
 #### Node class must have methods (for debug):
 * __int__(self)
 
@@ -25,10 +26,12 @@ With the same instances, you could organize different Double Linked List, one fo
 #### Linked List class must have these arrays:
 * llheads = [None, None, None....] (head node linkers, one for each list)
 * lltails = [None, None, None....] (tail node linkers, one for each list)
+
 #### Node class must have these arrays:
 * nexts = [None, None, None, ...] =  (next node linkers, one for each list)
 * prevs = [None, None, None, ...] =  (previous node linkers, one for each list)
 * indexes = [None, None, None, ...] =  (index of node, one for each list)
+
 #### Node class must have methods (for debug):
 * __int__(self)
 
@@ -58,6 +61,7 @@ With the same instances, you could organize different Double Linked List, one fo
 * pointer["tag" + "prev"] =  (previous node linker)
 * pointer["tag" + "next"] =  (next node linker)
 * pointer["tag" + "index"] =  (index of this list)
+
 #### Node class must have methods (for debug):
 * __int__(self)
 
